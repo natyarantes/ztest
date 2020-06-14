@@ -1,0 +1,68 @@
+
+/* header */
+.header{
+    background-color: #E0E0E0;
+}
+.header img {
+    padding: 12px 4px;
+}
+.botaoBranco{
+    background-color: #ffffff;
+}
+.list-group{
+    padding: .75em 0;
+    background-color: white;
+}
+.list-group-item{
+    border:none;
+    padding: 0 .75em;
+}
+.afterBar {
+    border-right: grey solid 1px;
+}
+
+/* conteúdo página principal */
+/* .col-8{
+    background-color: turquoise;
+}
+.col-4{
+    background-color: violet;
+} */
+.transaction {
+    border: 1px solid #979797;
+    border-radius: 4px;
+    padding: 20px 14px;
+}
+.transaction h6 {
+    text-align: center;
+}
+.transaction label {
+    margin: 10px 0 0 0;
+}
+.btn-addTransaction {
+    width: 100%;
+}
+
+/* extrato */
+.estatement {
+    padding: 20px 14px;
+}
+.estatement h6 {
+    text-align: center;
+}
+.estatement tfoot {
+    border-top-style: double;
+    border-color: #979797;
+}
+.textRight {
+    text-align: right;
+}
+.profit {
+    font-size: 10px;
+    text-align: right;
+}
+
+/* media queries */
+@media (max-width: 768px){
+    
+}
