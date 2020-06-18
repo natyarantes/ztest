@@ -9,20 +9,30 @@
     <script src="/style.78032849.js"></script></head>
     <body>
         <header class="header navbar navbar-light">
-            <nav class="container">
+            <nav class="container d-flex flex-row bd-highlight mb-3">
                 <a class="navbar-brand" href="">
                     <img src="/logo.cecc779a.png" alt="logo do teste"> Controle financeiro
                 </a>
-                <ul class="list-group list-group-horizontal">
+                <ul class="list-group list-group-horizontal d-none d-lg-flex">
                     <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Dashboard</li></a>
                     <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Resumo</li></a>
                     <a href="" class="text-decoration-none"><li class="list-group-item">Configurações</li></a>
                 </ul>
+                <!-- menu mobile -->
+                <button class="navbar-toggler d-flex d-lg-none" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menuLateral p-2 bd-highlight">
+                    <div class="">
+                        teste
+                    </div>
+                    
+                </div>
             </nav>
         </header>
         <div class="container">
             <div class="row mt-4">
-                <div class="col-4">
+                <div class="col-lg-4 col-xs-12">
                     <section class="transaction">
                         <h6>Nova transação</h6>
                         <form>
@@ -46,7 +56,7 @@
                         </form>
                     </section>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-xs-12">
                     <section class="estatement">
                         <h6>Extrato de transações</h6>
 
@@ -88,5 +98,8 @@
                 </div>
             </div>
         </div>
+        <footer class="footer navbar-fixed-bottom">
+            
+        </footer>
     </body>
 </html>
