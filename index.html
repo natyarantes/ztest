@@ -9,27 +9,39 @@
     </head>
     <body>
         <header class="header navbar navbar-light">
-            <nav class="container d-flex flex-row bd-highlight mb-3">
-                <a class="navbar-brand" href="">
-                    <img src="img/logo.png" alt="logo do teste"> Controle financeiro
-                </a>
-                <ul class="list-group list-group-horizontal d-none d-lg-flex">
-                    <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Dashboard</li></a>
-                    <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Resumo</li></a>
-                    <a href="" class="text-decoration-none"><li class="list-group-item">Configurações</li></a>
-                </ul>
-                <!-- menu mobile -->
-                <button class="navbar-toggler d-flex d-lg-none" type="button">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="menuLateral p-2 bd-highlight">
-                    <div class="">
-                        teste
-                    </div>
-                    
+            <nav class="container">
+                <div class="itemHelper">
+                    <a class="navbar-brand" href="">
+                        <img src="img/logo.png" alt="logo do teste"> Controle financeiro
+                    </a>
+                    <ul class="list-group list-group-horizontal d-none d-lg-flex">
+                        <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Dashboard</li></a>
+                        <a href="" class="text-decoration-none"><li class="list-group-item afterBar">Resumo</li></a>
+                        <a href="" class="text-decoration-none"><li class="list-group-item">Configurações</li></a>
+                    </ul>
+                    <!-- menu mobile -->
+                    <button class="navbar-toggler d-flex d-lg-none" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
             </nav>
         </header>
+        <!-- menu mobile -->
+        <div class="menuLateral d-flex align-items-end flex-column bd-highlight mb-3 d-lg-none">
+            <div class="p-2 bd-highlight">
+                <button type="button" class="close text-white" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="listaMenu bd-highlight">
+                <ul class="listaMenu">
+                    <a href="" class="text-decoration-none"><li class="">Dashboard</li></a>
+                    <a href="" class="text-decoration-none"><li class="">Resumo</li></a>
+                    <a href="" class="text-decoration-none"><li class="">Configurações</li></a>
+                </ul>
+
+            </div>
+        </div>
         <div class="container">
             <div class="row mt-4">
                 <div class="col-lg-4 col-xs-12">
