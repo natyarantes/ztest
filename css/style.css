@@ -1,4 +1,8 @@
 
+/* general settings */
+body {
+    font-family: 'Lato', sans-serif;
+}
 /* header */
 .header{
     background-color: #E0E0E0;
